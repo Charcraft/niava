@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+fb_config.json
+*.key
+*.pem
+*.crt
+
+# Browser / CDP
+chrome-profile/
+*.profile/
+playwright-report/
+test-results/
+
+# Memory & Data (user-specific)
+memory/
+data/
+*.log
+niava.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups
+*.bak
+*.backup
+*.bak_*
+
+# Docs (large, not for repo)
+*.docx
+*.pdf
+
+# Build
+dist/
+build/
