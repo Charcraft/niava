@@ -1,0 +1,32 @@
+# Core
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+python-dotenv>=1.0.0
+
+# Ollama / LLM
+ollama>=0.3.0
+httpx>=0.26.0
+
+# Browser Automation
+playwright>=1.40.0
+
+# Voice
+faster-whisper>=1.0.0
+edge-tts>=6.1.0
+
+# Facebook
+requests>=2.31.0
+
+# Utilities
+mss>=9.0.0  # screen capture
+cryptography>=41.0.0  # vault encryption
+
+# Dev / Test
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+ruff>=0.1.0
+mypy>=1.8.0
+
+# Optional: ElevenLabs (install if using)
+# elevenlabs>=0.2.0
